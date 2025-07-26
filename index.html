@@ -3,595 +3,896 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>السيرة الذاتية | عبدالإله فهد </title>
-    <meta name="description" content="السيرة الذاتية لعبدالإله فهد  مساعد إداري متخصص في تنظيم الأعمال المكتبية وتسهيل مهام الإدارة.">
+    <title>وثيقة مميزات موقع سيرتي الذكية</title>
     
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2215%22 fill=%22%23b08968%22></rect><text y=%22.9em%22 font-size=%2280%22 fill=%22%23fdfbf7%22 x=%2250%22 text-anchor=%22middle%22 font-family=%22Tajawal, sans-serif%22>ع</text></svg>">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
     <style>
+        /* Global Styles & Design System Variables */
         :root {
-            /* Light Mode Colors - Sandy Day Palette */
-            --bg-primary-light: #fdfbf7;
-            --bg-secondary-light: #ffffff;
-            --header-bg-light: linear-gradient(145deg, rgba(176, 137, 104, 0.08), rgba(176, 137, 104, 0.03));
-            --text-primary-light: #4a4a4a;
-            --text-secondary-light: #7f7f7f;
-            --accent-color-light: #b08968; /* Main Accent: Sandy Brown */
-            --border-color-light: #e3d5c9;
-            --shadow-light: 0 8px 30px rgba(176, 137, 104, 0.15);
+            /* Palette */
+            --color-primary-bg: #f5f8fa; /* Light background */
+            --color-secondary-bg: #ffffff; /* Card background */
+            --color-text-dark: #2c3e50; /* Primary text color */
+            --color-text-muted: #7f8c8d; /* Secondary text color */
+            --color-accent-blue: #3498db; /* Accent blue */
+            --color-accent-green: #2ecc71; /* Accent green for checkmarks */
+            --color-accent-red: #e74c3c;   /* */
+            --color-border-light: #e0e0e0; /* Light borders */
+            --color-tech-bg: #f8f9fa; /* Tech requirements background */
+            --color-tech-border: #dcdcdc; /* Tech requirements border */
+            --color-checked-border: #27ae60; /* Border color when checked */
+            --color-rejected-border: #c0392b; /* */
 
-            /* Dark Mode Colors - Sandy Day Palette */
-            --bg-primary-dark: #212121; 
-            --bg-secondary-dark: #323232; 
-            --header-bg-dark: linear-gradient(145deg, rgba(227, 213, 201, 0.1), rgba(227, 213, 201, 0.05));
-            --text-primary-dark: #f5f5f5; 
-            --text-secondary-dark: #a9a9a9; 
-            --accent-color-dark: #e3d5c9; /* Main Accent: Light Sand */
-            --border-color-dark: #4f4f4f; 
-            --shadow-dark: 0 10px 40px rgba(0, 0, 0, 0.5);
 
-            --font-ar: 'Tajawal', sans-serif; 
-            --font-en: 'Roboto', sans-serif;
+            /* Shadows */
+            --shadow-subtle: rgba(0, 0, 0, 0.05);
+            --shadow-medium: rgba(0, 0, 0, 0.1);
+
+            /* Transitions */
+            --transition-speed-normal: 0.3s ease-out;
+            --transition-speed-fast: 0.15s ease-out;
+
+            /* Spacing System */
+            --spacing-xs: 8px;
+            --spacing-sm: 12px;
+            --spacing-md: 20px;
+            --spacing-lg: 32px;
+            --spacing-xl: 48px;
+            --spacing-xxl: 80px;
+
+            /* Container Max Width */
+            --container-max-width: 1200px;
         }
-        ::selection { background-color: var(--accent-color-light); color: var(--bg-primary-light); }
-        ::-webkit-scrollbar { width: 12px; }
-        ::-webkit-scrollbar-track { background: var(--bg-secondary-dark); }
-        ::-webkit-scrollbar-thumb { background-color: var(--border-color-dark); border-radius: 10px; border: 3px solid var(--bg-secondary-dark); }
-        ::-webkit-scrollbar-thumb:hover { background-color: var(--accent-color-dark); }
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
-        html[dir="ltr"] .top-buttons {
-            left: auto;
-            right: 20px;
+
+        /* Base Styles */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
+
         body {
-            font-family: var(--font-ar); background-color: var(--bg-primary-dark); color: var(--text-primary-dark);
-            line-height: 1.8; display: flex; justify-content: center; align-items: flex-start;
-            min-height: 100vh; padding: 40px 15px; transition: background-color 0.3s ease, color 0.3s ease;
+            font-family: 'Tajawal', sans-serif;
+            background-color: var(--color-primary-bg);
+            color: var(--color-text-dark);
+            line-height: 1.6;
+            font-size: 16px;
+            overflow-x: hidden; /* Prevent horizontal scroll from animations */
         }
-        .cv-wrapper {
-            width: 100%; max-width: 980px; background-color: var(--bg-secondary-dark);
-            border: 1px solid var(--border-color-dark); border-radius: 12px;
-            box-shadow: var(--shadow-dark); padding: 40px; position: relative;
-            transition: background-color 0.3s ease, border-color 0.3s ease;
+
+        .container {
+            max-width: var(--container-max-width);
+            margin: var(--spacing-xxl) auto;
+            padding: 0 var(--spacing-md);
         }
-        .top-buttons { position: absolute; top: 20px; left: 20px; display: flex; gap: 10px; z-index: 10; }
-        .icon-btn {
-            background: none; border: 1px solid var(--border-color-dark); color: var(--text-secondary-dark);
-            width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
-            font-size: 1.2rem; display: flex; align-items: center; justify-content: center;
-            transition: all 0.3s ease;
+
+        /* Main Heading */
+        .main-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--color-accent-blue);
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
             position: relative;
-            overflow: hidden;
+            padding-bottom: var(--spacing-md);
+            animation: fadeInDown 0.8s ease-out; /* Main title animation */
         }
-        .icon-btn:hover { color: var(--accent-color-dark); border-color: var(--accent-color-dark); transform: translateY(-2px); }
-        body.light-mode { background-color: var(--bg-primary-light); color: var(--text-primary-light); }
-        body.light-mode .cv-wrapper { background-color: var(--bg-secondary-light); border-color: var(--border-color-light); box-shadow: var(--shadow-light); }
-        body.light-mode .cv-header { background: var(--header-bg-light); border-color: var(--border-color-light); }
-        body.light-mode .profile-name { color: var(--text-primary-light); }
-        body.light-mode .profile-job-title { color: var(--accent-color-light); }
-        body.light-mode .contact-list a { color: var(--text-secondary-light); }
-        body.light-mode .contact-list i { color: var(--accent-color-light); }
-        body.light-mode .contact-list a:hover { color: var(--accent-color-light); background-color: rgba(176, 137, 104, 0.05); }
-        body.light-mode .section-title { color: var(--accent-color-light); }
-        body.light-mode .section-content p, body.light-mode .section-content li { color: var(--text-secondary-light); }
-        body.light-mode .timeline { border-color: var(--border-color-light); }
-        body.light-mode .timeline-item::before { background-color: var(--accent-color-light); border-color: var(--bg-secondary-light); }
-        body.light-mode .timeline-title { color: var(--text-primary-light); }
-        body.light-mode .timeline-date { color: var(--accent-color-light); }
-        body.light-mode .timeline-duties li::before { color: var(--accent-color-dark); }
-        body.light-mode .timeline-duties li:hover, body.light-mode .skills-list li:hover { color: var(--accent-color-light); }
-        body.light-mode .skill-category h4 { color: var(--text-primary-light); border-color: var(--border-color-light); }
-        body.light-mode .skills-list i { color: var(--accent-color-light); }
-        body.light-mode .icon-btn { border-color: var(--border-color-light); color: var(--text-secondary-light); }
-        body.light-mode .icon-btn:hover { color: var(--accent-color-light); border-color: var(--accent-color-light); }
-        .cv-header { text-align: center; margin: -40px -40px 40px -40px; padding: 40px; padding-bottom: 30px; border-bottom: 1px solid var(--border-color-dark); border-radius: 12px 12px 0 0; background: var(--header-bg-dark); transition: all 0.3s ease; }
-        .cv-header-content { display: flex; align-items: center; justify-content: flex-start; gap: 50px; text-align: right; }
-        html[dir="ltr"] .cv-header-content { text-align: left; }
-        .profile-picture { 
-            width: 140px; height: 140px; border-radius: 7px; border: 2px solid var(--accent-color-dark); object-fit: cover; 
-            box-shadow: 0 4px 15px rgba(227, 213, 201, 0.2); transition: all 0.3s ease; flex-shrink: 0;
+        .main-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150px;
+            height: 6px;
+            background-color: var(--color-accent-blue);
+            border-radius: 3px;
+        }
+
+        /* Section Styling */
+        .feature-category {
+            margin-bottom: var(--spacing-xl);
+            background-color: var(--color-secondary-bg);
+            border-radius: 12px;
+            box-shadow: 0 5px 20px var(--shadow-subtle);
+            padding: var(--spacing-lg);
+            animation: fadeInUp 0.8s ease-out forwards; /* Category animation */
+            opacity: 0; /* Start hidden */
+            transform: translateY(20px); /* Start slightly below */
+        }
+        /* Delay animations for sections */
+        .feature-category:nth-of-type(1) { animation-delay: 0.2s; }
+        .feature-category:nth-of-type(2) { animation-delay: 0.4s; }
+        .feature-category:nth-of-type(3) { animation-delay: 0.6s; }
+        .feature-category:nth-of-type(4) { animation-delay: 0.8s; }
+        .feature-category:nth-of-type(5) { animation-delay: 1.0s; } /* Added delay for new section */
+
+
+        .category-heading {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-text-dark);
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 2px solid var(--color-border-light);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+        .category-heading i {
+            color: var(--color-accent-blue);
+            font-size: 1.8rem;
+        }
+
+        /* Feature Card */
+        .feature-card {
+            background-color: var(--color-primary-bg);
+            border: 1px solid var(--color-border-light);
+            border-radius: 10px;
+            margin-bottom: var(--spacing-md);
+            overflow: hidden; /* Important for collapse transition */
+            transition: border-color var(--transition-speed-normal), box-shadow var(--transition-speed-normal), transform var(--transition-speed-fast);
+        }
+        .feature-card:last-child {
+            margin-bottom: 0;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px); /* Subtle lift on hover */
+            box-shadow: 0 8px 25px var(--shadow-medium);
+        }
+        
+        /* */
+        .feature-card.checked {
+            border-color: var(--color-checked-border);
+            box-shadow: 0 0 0 3px var(--color-checked-border), 0 5px 20px var(--shadow-medium);
+        }
+        
+        /* */
+        .feature-card.rejected {
+            border-color: var(--color-rejected-border);
+            box-shadow: 0 0 0 3px var(--color-rejected-border), 0 5px 20px var(--shadow-medium);
+        }
+
+
+        .feature-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-md);
             cursor: pointer;
+            background-color: var(--color-secondary-bg);
+            border-bottom: 1px solid var(--color-border-light);
+            transition: background-color var(--transition-speed-fast);
         }
-        body.light-mode .profile-picture { border-color: var(--accent-color-light); box-shadow: 0 4px 15px rgba(176, 137, 104, 0.2); }
-        .profile-picture:hover { transform: scale(1.05); }
-        .profile-name { font-weight: 800; font-size: 2.7rem; color: #fff; letter-spacing: 1px; margin-bottom: 5px; transition: color 0.3s ease; }
-        .profile-job-title { font-size: 1.3rem; color: var(--accent-color-dark); font-weight: 500; margin-bottom: 20px; transition: color 0.3s ease; min-height: 2rem; }
-        .contact-list { list-style: none; display: flex; justify-content: center; flex-wrap: nowrap; gap: 10px; padding: 0; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-        .contact-list::-webkit-scrollbar { display: none; }
-        html[dir="ltr"] .contact-list { justify-content: center; }
-        .contact-list a { 
-            color: var(--text-secondary-dark); text-decoration: none; font-size: 1rem; display: flex; align-items: center; 
-            gap: 8px; transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; 
-            border-radius: 5px; padding: 2px 5px; flex-shrink: 0;
-            position: relative;
+        .feature-header:hover {
+            background-color: #fcfcfc;
+        }
+
+        .feature-header h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--color-text-dark);
+            flex-grow: 1;
+            margin-left: var(--spacing-md); /* Space for arrow icon */
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+        .feature-header h3 i { /* Icon inside h3 */
+            color: var(--color-accent-blue);
+            font-size: 1.1em; /* Relative to h3 font size */
+        }
+        
+        /* */
+        .feature-actions {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm); /* زيادة المسافة لتناسب الزر الجديد */
+        }
+        
+        /* */
+        .action-box {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--color-text-muted); /* لون افتراضي للبوردر */
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color var(--transition-speed-normal), border-color var(--transition-speed-normal);
+            flex-shrink: 0;
+        }
+        .action-box i {
+            color: #ffffff;
+            font-size: 1.2rem;
+            opacity: 0;
+            transform: scale(0.5);
+            transition: opacity var(--transition-speed-normal) ease-out, transform var(--transition-speed-normal) ease-out;
+        }
+        
+        /* */
+        .checkmark-box {
+             border-color: var(--color-accent-green);
+        }
+        .feature-card.checked .checkmark-box {
+            background-color: var(--color-accent-green);
+        }
+        .feature-card.checked .checkmark-box i {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* */
+        .reject-box {
+            border-color: var(--color-accent-red);
+        }
+        .feature-card.rejected .reject-box {
+            background-color: var(--color-accent-red);
+        }
+        .feature-card.rejected .reject-box i {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+
+        .toggle-arrow {
+            font-size: 1.2rem;
+            color: var(--color-text-muted);
+            transition: transform var(--transition-speed-normal);
+            flex-shrink: 0;
+            margin-right: var(--spacing-xs); /* */
+        }
+        .feature-card.expanded .toggle-arrow {
+            transform: rotate(90deg); /* Rotate arrow when expanded (for RTL) */
+        }
+        html[dir="ltr"] .feature-card.expanded .toggle-arrow {
+            transform: rotate(90deg); /* Rotate arrow when expanded (for LTR) */
+        }
+
+        /* Collapsible Content */
+        .feature-content {
+            max-height: 0;
             overflow: hidden;
+            transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; /* Smoother transition */
+            padding: 0 var(--spacing-md); /* Apply horizontal padding */
         }
-        html[dir="ltr"] .contact-list a { flex-direction: row; }
-        html[dir="rtl"] .contact-list a { flex-direction: row-reverse; }
-        .contact-list a:hover { color: var(--accent-color-dark); background-color: rgba(227, 213, 201, 0.05); transform: scale(1.02); }
-        .contact-list i { font-size: 1.2rem; color: var(--accent-color-dark); transition: color 0.3s ease; }
-        .contact-list a:hover i { color: inherit; }
-        .cv-section { margin-bottom: 35px; }
-        .section-title { font-weight: 700; font-size: 1.8rem; color: var(--accent-color-dark); margin-bottom: 20px; display: flex; align-items: center; gap: 12px; transition: color 0.3s ease; }
-        .section-title i { font-size: 1.6rem; }
-        .section-content p, .section-content li { color: var(--text-secondary-dark); font-size: 1rem; transition: color 0.3s ease; }
-        .section-content p .fas.fa-university { margin-inline-end: 5px; }
-        .timeline-duties li, .skills-list li { transition: transform 0.3s ease, color 0.3s ease; }
-        .timeline-duties li:hover, .skills-list li:hover { transform: translateX(-5px); color: var(--accent-color-dark); }
-        html[dir="ltr"] .timeline-duties li:hover, html[dir="ltr"] .skills-list li:hover { transform: translateX(5px); }
-        .timeline { position: relative; padding-right: 25px; border-right: 2px solid var(--border-color-dark); transition: border-color 0.3s ease; }
-        html[dir="ltr"] .timeline { padding-right: 0; padding-left: 25px; border-right: none; border-left: 2px solid var(--border-color-dark); }
-        .timeline-item { position: relative; margin-bottom: 25px; }
-        .timeline-item:last-child { margin-bottom: 0; }
-        .timeline-item::before { content: ''; position: absolute; top: 5px; right: -15px; width: 12px; height: 12px; background-color: var(--accent-color-dark); border-radius: 50%; border: 3px solid var(--bg-secondary-dark); transition: all 0.3s ease; }
-        html[dir="ltr"] .timeline-item::before { right: auto; left: -15px; }
-        .timeline-title { font-size: 1.2rem; font-weight: 700; color: var(--text-primary-dark); margin-bottom: 3px; transition: color 0.3s ease; }
-        .timeline-date { color: var(--accent-color-dark); font-size: 0.9rem; margin-bottom: 10px; display: block; transition: color 0.3s ease; }
-        .timeline-duties { list-style-type: none; padding-right: 15px; }
-        html[dir="ltr"] .timeline-duties { padding-right: 0; padding-left: 15px; }
-        .timeline-duties li { position: relative; padding-right: 20px; margin-bottom: 8px; }
-        html[dir="ltr"] .timeline-duties li { padding-right: 0; padding-left: 20px; }
-        .timeline-duties li::before { content: "\f104"; font-family: "Font Awesome 6 Free"; font-weight: 900; position: absolute; right: 0; top: 1px; color: var(--accent-color-dark); transition: color 0.3s ease; }
-        html[dir="ltr"] .timeline-duties li::before { content: "\f105"; right: auto; left: 0; }
-        .skills-container { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
-        .skill-category h4 { font-size: 1.1rem; font-weight: 700; color: var(--text-primary-dark); margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color-dark); transition: color 0.3s ease, border-color 0.3s ease; }
-        .skills-list { list-style: none; padding: 0;}
-        .skills-list li { margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
-        .skills-list i { color: var(--accent-color-dark); transition: all 0.3s ease; }
-        .skills-list li:hover i { transform: scale(1.2) rotate(15deg); }
-        #mobile-nav-toggle { display: none; position: fixed; top: 20px; left: 20px; z-index: 999; background-color: var(--bg-secondary-dark); border-radius: 8px; }
-        #mobile-nav { position: fixed; top: 0; right: -320px; width: 300px; max-width: 90%; height: 100%; z-index: 1001; transition: right 0.4s ease-in-out; padding: 20px; display: flex; flex-direction: column; gap: 20px; background-color: rgba(33, 33, 33, 0.8); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-left: 1px solid var(--border-color-dark); }
-        html[dir="ltr"] #mobile-nav { right: auto; left: -320px; transition: left 0.4s ease-in-out; border-left: none; border-right: 1px solid var(--border-color-dark); }
-        body.mobile-nav-active #mobile-nav { right: 0; }
-        html[dir="ltr"] body.mobile-nav-active #mobile-nav { left: 0; }
-        #mobile-nav-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.4s, visibility 0.4s; }
-        body.mobile-nav-active #mobile-nav-overlay { opacity: 1; visibility: visible; }
-        .mobile-nav-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 10px; }
-        .mobile-nav-header h5 { font-size: 1.2rem; color: var(--text-primary-dark); }
-        #mobile-nav-close { background: none; border: none; font-size: 1.5rem; padding: 0; width: auto; height: auto; }
-        #mobile-contact-links, #mobile-settings-buttons { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; }
-        #mobile-contact-links a, #mobile-settings-buttons button { display: flex; align-items: center; gap: 15px; text-decoration: none; color: var(--text-secondary-dark); padding: 10px; border-radius: 5px; transition: all 0.3s ease; background: none; border: none; width: 100%; font-size: 1rem; font-family: var(--font-ar); flex-direction: row; }
-        #mobile-settings-buttons { border-top: 1px solid var(--border-color-dark); padding-top: 20px; }
-        #mobile-contact-links a:hover, #mobile-settings-buttons button:hover { background-color: rgba(227, 213, 201, 0.05); color: var(--accent-color-dark); }
-        #mobile-contact-links a i, #mobile-settings-buttons button i { font-size: 1.2rem; color: var(--accent-color-dark); width: 20px; }
-        body.light-mode #mobile-nav { background-color: rgba(255, 255, 255, 0.7); border-color: var(--border-color-light); }
-        body.light-mode .mobile-nav-header h5 { color: var(--text-primary-light); }
-        body.light-mode #mobile-settings-buttons { border-color: var(--border-color-light); }
-        body.light-mode #mobile-contact-links a, body.light-mode #mobile-settings-buttons button { color: var(--text-secondary-light); }
-        body.light-mode #mobile-contact-links a:hover, body.light-mode #mobile-settings-buttons button:hover { color: var(--accent-color-light); background-color: rgba(176, 137, 104, 0.05); }
-        body.light-mode #mobile-contact-links a i, body.light-mode #mobile-settings-buttons button i { color: var(--accent-color-light); }
-        body.light-mode #mobile-nav-toggle { background-color: var(--bg-secondary-light); }
-        #back-to-top { position: fixed; bottom: 25px; left: 25px; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.4s ease; z-index: 998; }
-        #back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
-        html[dir="ltr"] #back-to-top { left: auto; right: 25px; }
-        #progress-bar { position: fixed; top: 0; left: 0; height: 4px; background: var(--accent-color-dark); width: 0%; z-index: 9999; transition: width 0.1s linear; }
-        body.light-mode #progress-bar { background: var(--accent-color-light); }
-        .cursor { display: inline-block; background-color: var(--accent-color-dark); width: 3px; animation: blink 1s infinite; }
-        @keyframes blink { 50% { opacity: 0; } }
-        body.light-mode .cursor { background: var(--accent-color-light); }
-        .ripple { position: absolute; border-radius: 50%; background-color: rgba(227, 213, 201, 0.3); transform: scale(0); animation: ripple-animation 0.6s linear; }
-        @keyframes ripple-animation { to { transform: scale(4); opacity: 0; } }
-        .modal { display: none; position: fixed; z-index: 1002; padding-top: 50px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.85); opacity: 0; transition: opacity 0.4s ease; }
-        .modal.visible { display: block; opacity: 1; }
-        .modal-content-wrapper { margin: auto; text-align: center; position: relative; max-width: 90%; max-height: 90%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-        @keyframes zoomIn { from {transform: scale(0.8); opacity: 0;} to {transform: scale(1); opacity: 1;} }
-        .modal.visible .modal-content-wrapper { animation: zoomIn 0.4s ease; }
-        .modal-content { display: block; max-width: 100%; max-height: 80vh; width: auto; height: auto; object-fit: contain; border-radius: 8px; border: 3px solid var(--border-color-dark); }
-        .modal-caption { margin-top: 15px; color: #ccc; font-size: 1.2rem; font-weight: 500; }
-        .modal-close-btn { position: absolute; top: -10px; right: 15px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s; cursor: pointer; }
-        .modal-close-btn:hover, .modal-close-btn:focus { color: #bbb; text-decoration: none; }
-        @media (max-width: 1025px) {
-            .skills-container { grid-template-columns: 1fr; }
-            body { padding: 20px 10px; }
-            .cv-wrapper { padding: 25px; padding-top: 80px; }
-            .top-buttons, .cv-header .contact-list { display: none; }
-            #mobile-nav-toggle { display: flex; }
-            .cv-header-content { flex-direction: column; gap: 20px; }
-            .profile-name { font-size: 2.0rem; }
-            .profile-job-title { font-size: 1.0rem; margin-bottom: 0;}
-            .cv-header { margin: -80px -25px 30px -25px; padding: 25px; padding-top: 80px;}
+        /* When expanded, padding needs to be full and max-height will be set by JS */
+        .feature-card.expanded .feature-content {
+            padding: var(--spacing-md); /* Apply full padding when expanded */
+            /* max-height will be set by JavaScript based on content.scrollHeight */
         }
+        
+        .feature-content p {
+            font-size: 1rem;
+            color: var(--color-text-dark);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .feature-content .tech-req {
+            font-size: 0.9rem;
+            color: var(--color-text-dark);
+            font-weight: 600;
+            background-color: var(--color-tech-bg);
+            border: 1px solid var(--color-tech-border);
+            border-radius: 8px;
+            padding: var(--spacing-sm);
+            display: flex;
+            align-items: flex-start; /* Align icon and text at top */
+            gap: var(--spacing-xs);
+            animation: fadeIn 0.5s ease-out; /* Animation for tech req when expanded */
+            animation-delay: 0.2s; /* Slight delay */
+            opacity: 0; /* Start hidden */
+            transform: translateY(10px); /* Start slightly below */
+        }
+        .feature-card.expanded .tech-req {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .feature-content .tech-req i {
+            color: var(--color-accent-blue);
+            font-size: 1rem;
+            margin-top: 2px; /* Slight adjustment for icon alignment */
+        }
+
+        /* General Notes specific styling */
+        .general-notes-list {
+            list-style: none;
+            padding: 0;
+        }
+        .general-notes-list li {
+            position: relative;
+            background-color: var(--color-primary-bg);
+            border: 1px solid var(--color-border-light);
+            border-radius: 8px;
+            padding: var(--spacing-sm);
+            margin-bottom: var(--spacing-sm);
+            font-size: 1rem;
+            color: var(--color-text-dark);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            transition: background-color var(--transition-speed-fast), transform var(--transition-speed-fast), box-shadow var(--transition-speed-fast);
+        }
+        .general-notes-list li:hover {
+            background-color: #f0f3f5;
+            transform: translateX(-5px); /* Subtle slide for notes */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .general-notes-list li i {
+            color: var(--color-accent-green);
+            font-size: 1.1rem;
+        }
+
+        /* New section specific styles */
+        .example-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .example-links li {
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .example-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--color-accent-blue);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color var(--transition-speed-fast);
+        }
+
+        .example-links a:hover {
+            color: #2980b9; /* Darker blue on hover */
+            text-decoration: underline;
+        }
+
+        .example-links i {
+            font-size: 1.2em;
+        }
+
+
+        /* Animations Keyframes */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Design */
         @media (max-width: 768px) {
-            body { padding: 20px 10px; }
-            .cv-wrapper { padding: 25px; padding-top: 80px; }
-            .top-buttons, .cv-header .contact-list { display: none; }
-            #mobile-nav-toggle { display: flex; }
-            .cv-header-content { flex-direction: column; gap: 20px; }
-            .profile-name { font-size: 2.0rem; }
-            .profile-job-title { font-size: 1.0rem; margin-bottom: 0;}
-            .cv-header { margin: -80px -25px 30px -25px; padding: 25px; padding-top: 80px;}
-        }
-        @media (max-width: 420px) {
-            .profile-name { font-size: 1.8rem; }
-            .profile-job-title { font-size: 0.8rem; }
-        }
-        @media (max-width: 376px) {
-            .profile-name { font-size: 1.7rem; }
-            .profile-job-title { font-size: 0.7rem; }
-        }
-    </style>
-
-    <style id="print-specific-styles">
-        @media print {
-            @page { size: A4; margin: 0.7cm 1.2cm; }
-            * { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; transition: none !important; letter-spacing: normal !important; }
-            body { font-size: 9pt; line-height: 1.3; }
-            a { text-decoration: none; }
-            .top-buttons, #mobile-nav-toggle, #mobile-nav, #mobile-nav-overlay, #back-to-top, .profile-picture, .timeline-item::before, .timeline-duties li::before, #progress-bar, #imageModal, .cursor { display: none !important; }
-            [data-aos] { transform: none !important; opacity: 1 !important; }
-            .cv-wrapper, .timeline { border: none !important; padding: 0 !important; }
-            .cv-header { text-align: center; padding: 0 0 6px 0 !important; margin: 0 0 10px 0 !important; border-bottom: 1px solid #888 !important; }
-            .cv-header-content, .profile-info, html[dir="rtl"] .profile-info { align-items: center !important; width: 100%; }
-            .profile-info { text-align: center !important; }
-            .profile-name { font-size: 19pt !important; margin-bottom: 1px !important; }
-            .profile-job-title { font-size: 11pt !important; margin-bottom: 6px !important; }
-            .cv-header .contact-list { justify-content: center !important; gap: 10px 20px !important; display: flex !important; align-items: center; }
-            
-            .contact-list a[href^="https://wa.me/"] {
-                display: none !important;
+            .main-title {
+                font-size: 2.5rem;
+                margin-bottom: var(--spacing-lg);
             }
-            
-            .contact-list span[data-translate-key] { font-size: 0; }
-            .contact-list span[data-translate-key]::after { font-size: 9pt; }
-            .contact-list a i {
-                display: inline-block !important;
-                font-size: 8.5pt !important;
-                vertical-align: middle;
+            .main-title::after {
+                width: 100px;
+                height: 4px;
             }
-            html[dir="rtl"] .contact-list a i { margin-left: 4px; }
-            html[dir="ltr"] .contact-list a i { margin-right: 4px; }
-            
-            .contact-list span[data-translate-key="phone"]::after { content: "0524446655"; }
-            .contact-list span[data-translate-key="email"]::after { content: "abed.admin@supportmail.com"; }
-            .contact-list span[data-translate-key="linkedin"]::after { content: "abed-admin"; }
-
-            .cv-section { margin-bottom: 10px !important; page-break-inside: avoid; }
-            .section-title { font-size: 12.5pt; font-weight: bold; padding-bottom: 3px; margin-bottom: 6px; border-color: #ccc; }
-            .timeline-item { margin-bottom: 8px; }
-            .timeline-title { font-size: 10pt; }
-            .timeline-date { font-size: 8.5pt; margin-bottom: 3px; }
-            .timeline-duties { list-style-position: inside; list-style-type: disc; }
-            .timeline-duties li { padding-right: 5px; margin-bottom: 2px; }
-            html[dir="ltr"] .timeline-duties li { padding-right: 0; padding-left: 5px; }
-            .skills-container { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 0 20px; }
-            .skill-category { page-break-inside: avoid; }
-            .skill-category h4 { font-size: 10pt; margin-bottom: 4px; padding-bottom: 2px; }
-            .skills-list li { margin-bottom: 2px; }
+            .container {
+                margin: var(--spacing-xl) auto;
+                padding: 0 var(--spacing-sm);
+            }
+            .feature-category {
+                padding: var(--spacing-md);
+            }
+            .category-heading {
+                font-size: 1.6rem;
+                margin-bottom: var(--spacing-md);
+            }
+            .category-heading i {
+                font-size: 1.5rem;
+            }
+            .feature-header h3 {
+                font-size: 1.1rem;
+            }
+            .feature-header h3 i {
+                font-size: 0.9em;
+            }
+            .feature-content p {
+                font-size: 0.9rem;
+            }
+            .feature-content .tech-req {
+                font-size: 0.8rem;
+                padding: var(--spacing-xs);
+            }
+            .action-box { /* */
+                width: 20px;
+                height: 20px;
+            }
+            .action-box i { /* */
+                font-size: 1rem;
+            }
+            .toggle-arrow {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
 
-    <div id="progress-bar"></div>
+    <div class="container">
+        <h1 class="main-title">مميزات موقع سيرتي الذكية</h1>
 
-    <div class="cv-wrapper" data-aos="fade-in">
-        <button type="button" id="mobile-nav-toggle" class="icon-btn" title="القائمة">
-            <i class="fas fa-bars"></i>
-        </button>
+        <section class="feature-category">
+            <h2 class="category-heading"><i class="fas fa-brain"></i> المميزات الذكية والتكاملات</h2>
+            <div class="features-list">
+                <div class="feature-card" data-feature-id="jobBoards">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-briefcase"></i> لوحات إعلانية للوظائف المخصصة</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>عرض وظائف شاغرة ذات صلة بمهارات المستخدم وخبراته (مستخلصة من سيرته الذاتية) من منصات التوظيف الرائدة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> تكامل مع APIs لمنصات التوظيف (مثل LinkedIn Jobs, Indeed)، تحليل سيرة ذاتية بالذكاء الاصطناعي للمطابقة.
+                        </div>
+                    </div>
+                </div>
 
-        <div class="top-buttons">
-            <button id="theme-toggle" class="icon-btn" title="تبديل الوضع"><i class="fas fa-sun"></i></button>
-            <button id="lang-toggle" class="icon-btn" title="Switch Language"><i class="fas fa-language"></i></button>
-            <button id="print-btn" class="icon-btn" title="طباعة"><i class="fas fa-print"></i></button>
-        </div>
+                <div class="feature-card" data-feature-id="techNews">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-newspaper"></i> آخر الأخبار العالمية حول التقنيات</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>موجز يومي لأحدث الأخبار والمقالات والاتجاهات في المجالات التقنية التي تهم المستخدم، بناءً على تحليل اهتماماته.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> تكامل مع APIs لمصادر الأخبار (مثل News API)، تصفية وتصنيف الأخبار بالذكاء الاصطناعي.
+                        </div>
+                    </div>
+                </div>
 
-        <header class="cv-header">
-            <div class="cv-header-content">
-                <img src="2.png" alt="صورة عبدالإله  الشخصية" class="profile-picture" id="profile-pic-trigger">
-                <div class="profile-info">
-                    <h1 class="profile-name" data-translate-key="name">عبدالإله فهد </h1>
-                    <h2 class="profile-job-title" data-translate-key="jobTitle">
-                        <span id="typing-effect"></span><span class="cursor">&nbsp;</span>
-                    </h2>
-                    <ul class="contact-list">
-                      <li><a href="tel:+966524446655"> <span data-translate-key="phone">+966 52 444 6655</span> <i class="fas fa-phone-alt"></i></a></li>
-                      <li><a href="mailto:abed.admin@supportmail.com"> <span data-translate-key="email">البريد الإلكتروني</span> <i class="fas fa-envelope"></i></a></li>
-                      <li><a href="https://linkedin.com/in/abed-admin" target="_blank" rel="noopener noreferrer"> <span data-translate-key="linkedin">LinkedIn</span> <i class="fab fa-linkedin"></i></a></li>
-                      <li><a href="https://wa.me/966524446655" target="_blank" rel="noopener noreferrer"> <span data-translate-key="whatsapp">WhatsApp</span> <i class="fab fa-whatsapp"></i></a></li>
-                    </ul>
+                <div class="feature-card" data-feature-id="emailAssistant">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-envelope-open-text"></i> مساعد ذكي لكتابة رسالة بريد إلكتروني</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>أداة مدعومة بالذكاء الاصطناعي تساعد المستخدمين في صياغة رسائل بريد إلكتروني احترافية (مثل رسائل التغطية أو المتابعة) بناءً على بيانات السيرة الذاتية والوظيفة المستهدفة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> تكامل مع نماذج لغوية كبيرة (LLMs) مثل OpenAI GPT/Google Gemini، هندسة أوامر (Prompt Engineering) متقدمة.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="aiSuggestions">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-lightbulb"></i> اقتراحات ونصائح متغيرة بالذكاء الاصطناعي</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>تقديم نصائح واقتراحات مخصصة للمستخدم لتحسين سيرته الذاتية أو تطوير مهاراته، مع تغيير هذه النصائح بانتظام لتقديم قيمة مستمرة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> نظام تحليل سيرة ذاتية بالذكاء الاصطناعي، قاعدة بيانات للنصائح، منطق ربط الذكاء الاصطناعي بالنصائح المناسبة.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="aiAgent">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-robot"></i> المساعد الرقمي الشامل (AI Agent)</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>مساعد رقمي تفاعلي قادر على فهم الأوامر المعقدة باللغة الطبيعية وتنفيذها عبر النظام (مثال: "عدّل سيرتي الذاتية لوظيفة X، ارفعها على GitHub، ثم أرسل الرابط لـ Y").</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> NLU/NLG متقدم، نظام وكيل ذكاء اصطناعي (AI Agent Orchestration)، تكامل APIs متعدد (GitHub, Email, SMS). <strong>(الأكثر تعقيداً)</strong>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <section class="cv-section" data-aos="fade-up">
-                <h3 class="section-title"><i class="fas fa-user-tie"></i> <span data-translate-key="bioTitle">نبذة تعريفية</span></h3>
-                <div class="section-content">
-                    <p data-translate-key="bioText">مساعد إداري دقيق وملتزم بتنظيم الأعمال المكتبية وتسهيل مهام الإدارة باحترافية وسرعة.</p>
-                </div>
-            </section>
-
-            <section class="cv-section" data-aos="fade-up">
-                <h3 class="section-title"><i class="fas fa-briefcase"></i> <span data-translate-key="experienceTitle">الخبرة العملية</span></h3>
-                <div class="section-content">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <h4 class="timeline-title" data-translate-key="exp1Title">مساعد إداري - شركة النخبة للخدمات</h4>
-                            <span class="timeline-date" data-translate-key="exp1Date">2020 - الآن</span>
+        <section class="feature-category">
+            <h2 class="category-heading"><i class="fas fa-layer-group"></i> المميزات الأساسية الحالية</h2>
+            <div class="features-list">
+                <div class="feature-card" data-feature-id="userSystem">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-users-cog"></i> نظام المستخدمين وتسجيل الدخول</h3>
+                        <div class="feature-actions">
+                            <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
                         </div>
-                        <div class="timeline-item">
-                            <h4 class="timeline-title" data-translate-key="exp2Title">سكرتير تنفيذي - مستشفى الدار</h4>
-                            <span class="timeline-date" data-translate-key="exp2Date">2016 - 2020</span>
+                    </div>
+                    <div class="feature-content">
+                        <p>يشمل التسجيل (Sign-up)، تسجيل الدخول (Login)، استعادة كلمة المرور، وإدارة الملف الشخصي الأساسي بشكل آمن وموثوق.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> واجهات أمامية، قاعدة بيانات للمستخدمين، آليات مصادقة (Authentication) وتفويض (Authorization).
                         </div>
                     </div>
                 </div>
-            </section>
-            
-            <section class="cv-section" data-aos="fade-up">
-                <h3 class="section-title"><i class="fas fa-graduation-cap"></i> <span data-translate-key="educationTitle">المؤهل العلمي</span></h3>
-                <div class="section-content">
-                     <div class="timeline">
-                        <div class="timeline-item">
-                            <h4 class="timeline-title" data-translate-key="edu1Degree">دبلوم سكرتارية تنفيذية</h4>
-                            <p data-translate-key="edu1University"><i class="fas fa-university"></i> الكلية التقنية</p>
+                
+                <div class="feature-card" data-feature-id="dashboard">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-chart-line"></i> لوحة التحكم الرئيسية (Dashboard)</h3>
+                        <div class="feature-actions">
+                            <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>صفحة مخصصة للمستخدم بعد تسجيل الدخول، تعرض ملخصًا لأهم الأنشطة، وتوفر وصولاً سريعًا لإنشاء وتعديل السير الذاتية.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> تصميم واجهة مستخدم (UI)، جلب وعرض بيانات المستخدم ديناميكيًا.
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <section class="cv-section" data-aos="fade-up">
-                <h3 class="section-title"><i class="fas fa-cogs"></i> <span data-translate-key="skillsTitle">المهارات</span></h3>
-                <div class="section-content">
-                    <div class="skills-container">
-                        <div class="skill-category">
-                            <h4 data-translate-key="skillsCat1"><i class="fas fa-file-alt"></i> المهارات الإدارية والمكتبية</h4>
-                            <ul class="skills-list">
-                                <li><i class="fas fa-check"></i> <span data-translate-key="skill1">تنظيم الاجتماعات</span></li>
-                                <li><i class="fas fa-check"></i> <span data-translate-key="skill2">كتابة الخطابات الرسمية</span></li>
-                                <li><i class="fas fa-check"></i> <span data-translate-key="skill3">أرشفة الملفات</span></li>
-                                <li><i class="fas fa-check"></i> <span data-translate-key="skill4">استخدام Microsoft Office</span></li>
-                                <li><i class="fas fa-check"></i> <span data-translate-key="skill5">إدارة البريد</span></li>
-                            </ul>
+                <div class="feature-card" data-feature-id="cvLibrary">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-folder-open"></i> مكتبة السير الذاتية (CV Library)</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
                         </div>
-                        <div class="skill-category">
-                            <h4 data-translate-key="skillsCat2"><i class="fas fa-globe"></i> اللغات</h4>
-                            <ul class="skills-list">
-                                <li><i class="fas fa-check"></i> <span data-translate-key="lang1">العربية (اللغة الأم)</span></li>
-                                <li><i class="fas fa-check"></i> <span data-translate-key="lang2">الإنجليزية (مستوى جيد)</span></li>
-                            </ul>
+                    </div>
+                    <div class="feature-content">
+                        <p>قسم مخصص لعرض جميع السير الذاتية التي أنشأها المستخدم، بما في ذلك السيرة الذاتية الأساسية والنسخ المخصصة الأخرى.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> عرض قائمة بالبطاقات، إدارة وتخزين بيانات السير الذاتية.
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <section class="cv-section" data-aos="fade-up">
-                <h3 class="section-title"><i class="fas fa-certificate"></i> <span data-translate-key="coursesTitle">الدورات والشهادات</span></h3>
-                <div class="section-content">
-                    <ul class="timeline-duties">
-                        <li data-translate-key="course1">مهارات السكرتارية المتقدمة</li>
-                        <li data-translate-key="course2">تنظيم الوقت والمهام</li>
-                        <li data-translate-key="course3">خدمة العملاء</li>
-                        <li data-translate-key="course4">Excel للأعمال</li>
-                        <li data-translate-key="course5">المراسلات الإدارية</li>
-                    </ul>
+                <div class="feature-card" data-feature-id="cvDisplay">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-file-alt"></i> عرض السيرة الذاتية (CV Display)</h3>
+                        <div class="feature-actions">
+                            <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>القدرة على عرض السيرة الذاتية الفردية بتنسيق HTML ديناميكي، مع إمكانية التنقل السلس بين أقسامها المختلفة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> قالب HTML قابل للتعبئة، API لجلب بيانات السيرة الذاتية.
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+
+        <section class="feature-category">
+            <h2 class="category-heading"><i class="fas fa-magic"></i> تحسينات تخصيص وإدارة السيرة الذاتية</h2>
+            <div class="features-list">
+                <div class="feature-card" data-feature-id="templateEdit">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-edit"></i> تعديل القالب من لوحة التحكم</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>توفير واجهة بديهية تسمح للمستخدم بإدخال وتعديل جميع تفاصيل السيرة الذاتية (الاسم، الصورة، الخبرات، التعليم، إلخ) مباشرةً من لوحة التحكم دون الحاجة للتعامل مع الكود.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> نماذج إدخال بيانات متقدمة، API لحفظ وتحديث البيانات، تحديث المعاينة الفورية.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="addProfilePic">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-image"></i> إضافة صورة شخصية للمستخدم</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>تمكين المستخدم من رفع صورته الشخصية بشكل آمن وعرضها في السيرة الذاتية وفي ملفه الشخصي داخل لوحة التحكم.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> حقل رفع ملفات (File Upload)، تخزين سحابي/خادم للصور، معالجة الصور (تصغير، اقتصاص).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="favoriteCv">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-heart"></i> تفضيل السيرة الذاتية</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>إمكانية وضع علامة "مفضلة" على سيرة ذاتية معينة لسهولة الوصول إليها أو تمييزها.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> حقل في قاعدة البيانات لتخزين حالة التفضيل، منطق الواجهة الأمامية لعرض وتغيير الحالة.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="cvSearch">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-search"></i> خاصية البحث عن سيرة ذاتية</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>إضافة حقل بحث فعال في مكتبة السير الذاتية يسمح للمستخدمين بالبحث عن سير ذاتية محددة بناءً على الاسم أو الكلمات المفتاحية.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> واجهة بحث (Input field)، استعلامات قاعدة بيانات محسّنة للبحث السريع.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-feature-id="sortCvs">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-sort-amount-down-alt"></i> ترتيب السير الذاتية حسب التاريخ</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>الفرز التلقائي للسير الذاتية في المكتبة من الأحدث إلى الأقدم، مع إمكانية تثبيت السيرة الذاتية الأساسية في الصدارة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> API لجلب البيانات مرتبة، منطق فرز في الواجهة الأمامية.
+                        </div>
+                        </div>
+                    </div>
+
+                <div class="feature-card" data-feature-id="cvPreview">
+                    <div class="feature-header">
+                        <h3><i class="fas fa-eye"></i> معاينة السيرة الذاتية عند المرور بالمؤشر</h3>
+                        <div class="feature-actions">
+                           <div class="checkmark-box action-box" aria-label="وضع علامة مكتمل" role="button" tabindex="0">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="reject-box action-box" aria-label="وضع علامة مرفوض" role="button" tabindex="0">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <i class="fas fa-chevron-left toggle-arrow"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <p>إظهار معاينة مصغرة أو ملخص سريع للسيرة الذاتية في إطار منبثق عند تحريك مؤشر الفأرة فوق بطاقتها في المكتبة.</p>
+                        <div class="tech-req">
+                            <i class="fas fa-code"></i> <span>المتطلبات التقنية:</span> تأثيرات CSS/JS (Tooltip/Popover)، (اختياري) توليد صور مصغرة أو مقتطفات نصية.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-category">
+            <h2 class="category-heading"><i class="fas fa-laptop-code"></i> أمثلة على واجهة الموقع و قالب السيرة الذاتية</h2>
+            <p>يمكنك الاطلاع على أمثلة لواجهة الموقع وقوالب السيرة الذاتية من الروابط التالية:</p>
+            <ul class="example-links">
+                <li><a href="cvai.html" target="_blank"><i class="fas fa-external-link-alt"></i> واجهة موقع سيرتي الذكية (cvai)</a></li>
+                <li><a href="cv.html" target="_blank"><i class="fas fa-external-link-alt"></i> قالب السيرة الذاتية (cv)</a></li>
+            </ul>
+        </section>
+
+        <section class="feature-category">
+            <h2 class="category-heading"><i class="fas fa-info-circle"></i> ملاحظات عامة وتوصيات للتنفيذ</h2>
+            <ul class="general-notes-list">
+                <li><i class="fas fa-check-circle"></i> <strong>تصميم متجاوب (Responsive Design):</strong> يجب أن يكون الموقع متجاوبًا بالكامل ليعمل بسلاسة على جميع الأجهزة.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>الأداء والسرعة:</strong> تحسين أداء الموقع لضمان سرعة التحميل والاستجابة لتجربة مستخدم ممتازة.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>الأمان:</strong> تطبيق أفضل الممارسات الأمنية لحماية بيانات المستخدمين والسير الذاتية.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>قابلية التوسع (Scalability):</strong> تصميم البنية التحتية لتكون قابلة للتوسع بسهولة لاستيعاب النمو المستقبلي.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>الواجهة الخلفية (Backend Technology):</strong> يوصى باستخدام إطار عمل قوي ومستقر ومناسب لتطوير الواجهة الخلفية.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>قاعدة البيانات:</strong> اختيار قاعدة بيانات مناسبة لتخزين بيانات المستخدمين والسير الذاتية وإعدادات النظام.</li>
+                <li><i class="fas fa-check-circle"></i> <strong>البيانات الوهمية (Dummy Data):</strong> استخدام بيانات وهمية في مراحل التطوير الأولية والعروض التوضيحية.</li>
+            </ul>
+        </section>
     </div>
 
-    <div id="mobile-nav">
-        <div class="mobile-nav-header">
-            <h5 data-translate-key="menuTitle">القائمة</h5>
-            <button type="button" id="mobile-nav-close" class="icon-btn"><i class="fas fa-times"></i></button>
-        </div>
-        
-        <ul id="mobile-contact-links">
-            <li><a href="tel:+966524446655"><i class="fas fa-phone-alt"></i><span data-translate-key="phone">+966 52 444 6655</span></a></li>
-            <li><a href="https://wa.me/966524446655" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i><span data-translate-key="whatsapp">WhatsApp</span></a></li>
-            <li><a href="https://linkedin.com/in/abed-admin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i><span data-translate-key="linkedin">LinkedIn</span></a></li>
-            <li><a href="mailto:abed.admin@supportmail.com"><i class="fas fa-envelope"></i><span data-translate-key="email">البريد الإلكتروني</span></a></li>
-        </ul>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const featureCards = document.querySelectorAll('.feature-card');
 
-        <div id="mobile-settings-buttons">
-             <button id="theme-toggle-mobile" title="تبديل الوضع"><i class="fas fa-sun"></i> <span data-translate-key="themeTitle">تبديل الوضع</span></button>
-             <button id="print-btn-mobile" title="طباعة"><i class="fas fa-print"></i> <span data-translate-key="printTitle">طباعة</span></button>
-             <button id="lang-toggle-mobile" title="Switch Language"><i class="fas fa-language"></i> <span data-translate-key="langTitle">تغيير اللغة</span></button>
-        </div>
-    </div>
-    <div id="mobile-nav-overlay"></div>
+        featureCards.forEach(card => {
+            const header = card.querySelector('.feature-header');
+            const checkmarkBox = card.querySelector('.checkmark-box');
+            const rejectBox = card.querySelector('.reject-box');
+            const content = card.querySelector('.feature-content');
+            const featureId = card.dataset.featureId;
 
-    <a href="#" id="back-to-top" class="icon-btn" title="العودة للأعلى" aria-label="العودة للأعلى"><i class="fas fa-arrow-up"></i></a>
-
-    <div id="imageModal" class="modal">
-        <span class="modal-close-btn">&times;</span>
-        <div class="modal-content-wrapper">
-            <img class="modal-content" src="2.png" alt="صورة عبدالإله ">
-            <div class="modal-caption" data-translate-key="name">عبدالإله فهد </div>
-        </div>
-    </div>
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            AOS.init({ duration: 800, once: true, offset: 50, easing: 'ease-in-out', });
-            
-            const body = document.body;
-            const htmlEl = document.documentElement;
-            const themeToggle = document.getElementById('theme-toggle');
-            const langToggle = document.getElementById('lang-toggle');
-            const printBtn = document.getElementById('print-btn');
-            const themeToggleMobile = document.getElementById('theme-toggle-mobile');
-            const langToggleMobile = document.getElementById('lang-toggle-mobile');
-            const printBtnMobile = document.getElementById('print-btn-mobile');
-            const mobileNavToggle = document.getElementById('mobile-nav-toggle');
-            const mobileNavClose = document.getElementById('mobile-nav-close');
-            const mobileNavOverlay = document.getElementById('mobile-nav-overlay');
-            const backToTopBtn = document.getElementById('back-to-top');
-            const progressBar = document.getElementById('progress-bar');
-            const typingEffectElement = document.getElementById('typing-effect');
-            const imageModal = document.getElementById('imageModal');
-            const profilePicTrigger = document.getElementById('profile-pic-trigger');
-            const modalCloseBtn = document.querySelector('.modal-close-btn');
-
-            const translations = {
-                name: { ar: 'عبدالإله فهد ', en: 'Abdulilah Fahad' },
-                jobTitle: { ar: 'مساعد إداري', en: 'Administrative Assistant' },
-                phone: { ar: 'جوال', en: 'Phone' },
-                email: { ar: 'البريد الإلكتروني', en: 'Email' },
-                linkedin: { ar: 'LinkedIn', en: 'LinkedIn' },
-                whatsapp: { ar: 'WhatsApp', en: 'WhatsApp' },
-                bioTitle: { ar: 'نبذة تعريفية', en: 'Profile Summary' },
-                bioText: { ar: 'مساعد إداري دقيق وملتزم بتنظيم الأعمال المكتبية وتسهيل مهام الإدارة باحترافية وسرعة.', en: 'A meticulous and dedicated administrative assistant committed to organizing office work and facilitating management tasks with professionalism and speed.' },
-                experienceTitle: { ar: 'الخبرة العملية', en: 'Work Experience' },
-                exp1Title: { ar: 'مساعد إداري - شركة النخبة للخدمات', en: 'Administrative Assistant - Al-Nokhba Services Co.' },
-                exp1Date: { ar: '2020 - الآن', en: '2020 - Present' },
-                exp2Title: { ar: 'سكرتير تنفيذي - مستشفى الدار', en: 'Executive Secretary - Al-Dar Hospital' },
-                exp2Date: { ar: '2016 - 2020', en: '2016 - 2020' },
-                educationTitle: { ar: 'المؤهل العلمي', en: 'Education' },
-                edu1Degree: { ar: 'دبلوم سكرتارية تنفيذية', en: 'Executive Secretarial Diploma' },
-                edu1University: { ar: '<i class="fas fa-university"></i> الكلية التقنية', en: '<i class="fas fa-university"></i> Technical College' },
-                skillsTitle: { ar: 'المهارات', en: 'Skills' },
-                skillsCat1: { ar: '<i class="fas fa-file-alt"></i> المهارات الإدارية والمكتبية', en: '<i class="fas fa-file-alt"></i> Administrative & Office Skills' },
-                skill1: { ar: 'تنظيم الاجتماعات', en: 'Meeting Organization' },
-                skill2: { ar: 'كتابة الخطابات الرسمية', en: 'Writing Official Letters' },
-                skill3: { ar: 'أرشفة الملفات', en: 'File Archiving' },
-                skill4: { ar: 'استخدام Microsoft Office', en: 'Microsoft Office Usage' },
-                skill5: { ar: 'إدارة البريد', en: 'Mail Management' },
-                skillsCat2: { ar: '<i class="fas fa-globe"></i> اللغات', en: 'Languages' },
-                lang1: { ar: 'العربية (اللغة الأم)', en: 'Arabic (Native)' },
-                lang2: { ar: 'الإنجليزية (مستوى جيد)', en: 'English (Good)' },
-                coursesTitle: { ar: 'الدورات والشهادات', en: 'Courses & Certificates' },
-                course1: { ar: 'مهارات السكرتارية المتقدمة', en: 'Advanced Secretarial Skills' },
-                course2: { ar: 'تنظيم الوقت والمهام', en: 'Time and Task Management' },
-                course3: { ar: 'خدمة العملاء', en: 'Customer Service' },
-                course4: { ar: 'Excel للأعمال', en: 'Excel for Business' },
-                course5: { ar: 'المراسلات الإدارية', en: 'Administrative Correspondence' },
-                menuTitle: { ar: 'القائمة', en: 'Menu' },
-                themeTitle: { ar: 'تبديل الوضع', en: 'Toggle Theme' },
-                langTitle: { ar: 'تغيير اللغة', en: 'Change Language' },
-                printTitle: { ar: 'طباعة', en: 'Print' },
-            };
-        
-            function updateProgressBar() {
-                if (!progressBar) return;
-                const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-                const scrollPercent = (scrollTop / (scrollHeight - clientHeight)) * 100;
-                progressBar.style.width = `${scrollPercent}%`;
-            }
-
-            function createRipple(event) {
-                const button = event.currentTarget;
-                const circle = document.createElement("span");
-                const diameter = Math.max(button.clientWidth, button.clientHeight);
-                const radius = diameter / 2;
-                circle.style.width = circle.style.height = `${diameter}px`;
-                circle.style.left = `${event.clientX - (button.getBoundingClientRect().left + radius)}px`;
-                circle.style.top = `${event.clientY - (button.getBoundingClientRect().top + radius)}px`;
-                circle.classList.add("ripple");
-                const ripple = button.getElementsByClassName("ripple")[0];
-                if (ripple) { ripple.remove(); }
-                button.appendChild(circle);
-            }
-
-            function openModal() {
-                if (imageModal) imageModal.classList.add('visible');
-            }
-
-            function closeModal() {
-                if (imageModal) imageModal.classList.remove('visible');
-            }
-
-            function applySavedTheme() {
-                const savedTheme = localStorage.getItem('theme');
-                const icons = document.querySelectorAll('#theme-toggle i, #theme-toggle-mobile i');
-                if (savedTheme === 'light') {
-                    body.classList.add('light-mode');
-                    icons.forEach(icon => { icon.classList.remove('fa-sun'); icon.classList.add('fa-moon'); });
-                } else {
-                    body.classList.remove('light-mode');
-                    icons.forEach(icon => { icon.classList.remove('fa-moon'); icon.classList.add('fa-sun'); });
+            // Load state from LocalStorage (checked, rejected, expanded)
+            function loadState() {
+                const savedState = localStorage.getItem(`feature-${featureId}-state`);
+                if (savedState === 'checked') {
+                    card.classList.add('checked');
+                    card.classList.remove('rejected');
+                } else if (savedState === 'rejected') {
+                    card.classList.add('rejected');
+                    card.classList.remove('checked');
                 }
-            }
 
-            function setLanguage(lang) {
-                htmlEl.lang = lang;
-                htmlEl.dir = lang === 'ar' ? 'rtl' : 'ltr';
-                body.style.fontFamily = lang === 'ar' ? 'var(--font-ar)' : 'var(--font-en)';
-                document.querySelectorAll('[data-translate-key]').forEach(el => {
-                    const key = el.dataset.translateKey;
-                    if (key === 'jobTitle') {
-                        const jobTitleSpan = document.getElementById('typing-effect');
-                        if (jobTitleSpan && translations[key] && translations[key][lang]) {
-                             jobTitleSpan.innerHTML = translations[key][lang];
+                const savedExpandedState = localStorage.getItem(`feature-${featureId}-expanded`);
+                if (savedExpandedState === 'true') {
+                    card.classList.add('expanded');
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    setTimeout(() => {
+                        if (card.classList.contains('expanded')) {
+                            content.style.maxHeight = 'none';
                         }
-                    } else if (translations[key] && translations[key][lang]) {
-                        el.innerHTML = translations[key][lang];
+                    }, 400);
+                    header.setAttribute('aria-expanded', 'true');
+                } else {
+                    content.style.maxHeight = '0';
+                    header.setAttribute('aria-expanded', 'false');
+                }
+            }
+            
+            loadState();
+
+            // Toggle expand/collapse on header click
+            header.addEventListener('click', () => {
+                const isCurrentlyExpanded = card.classList.contains('expanded');
+                if (isCurrentlyExpanded) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    void content.offsetWidth;
+                    card.classList.remove('expanded');
+                    content.style.maxHeight = '0';
+                    header.setAttribute('aria-expanded', 'false');
+                    localStorage.setItem(`feature-${featureId}-expanded`, 'false');
+                } else {
+                    card.classList.add('expanded');
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    header.setAttribute('aria-expanded', 'true');
+                    localStorage.setItem(`feature-${featureId}-expanded`, 'true');
+
+                    content.addEventListener('transitionend', function handler() {
+                        if (card.classList.contains('expanded')) {
+                            content.style.maxHeight = 'none';
+                        }
+                        content.removeEventListener('transitionend', handler);
+                    });
+                }
+            });
+            
+            // Unified function to handle button clicks
+            function handleActionClick(event, actionType) {
+                event.stopPropagation(); // Prevent header click
+
+                if (actionType === 'checked') {
+                    if(card.classList.contains('checked')){
+                         card.classList.remove('checked');
+                         localStorage.setItem(`feature-${featureId}-state`, 'none');
+                    } else {
+                        card.classList.add('checked');
+                        card.classList.remove('rejected');
+                        localStorage.setItem(`feature-${featureId}-state`, 'checked');
                     }
-                });
-                localStorage.setItem('language', lang);
-            }
-
-            function handleThemeToggle() {
-                body.classList.toggle('light-mode');
-                const icons = document.querySelectorAll('#theme-toggle i, #theme-toggle-mobile i');
-                let theme = body.classList.contains('light-mode') ? 'light' : 'dark';
-                if (theme === 'light') {
-                    icons.forEach(icon => { icon.classList.remove('fa-sun'); icon.classList.add('fa-moon'); });
-                } else {
-                    icons.forEach(icon => { icon.classList.remove('fa-moon'); icon.classList.add('fa-sun'); });
+                } else if (actionType === 'rejected') {
+                    if(card.classList.contains('rejected')){
+                        card.classList.remove('rejected');
+                        localStorage.setItem(`feature-${featureId}-state`, 'none');
+                    } else {
+                        card.classList.add('rejected');
+                        card.classList.remove('checked');
+                        localStorage.setItem(`feature-${featureId}-state`, 'rejected');
+                    }
                 }
-                localStorage.setItem('theme', theme);
-            }
-
-            function handleLangToggle() {
-                const newLang = htmlEl.lang === 'ar' ? 'en' : 'ar';
-                setLanguage(newLang);
             }
             
-            function handlePrint() {
-                window.print();
-            }
+            // Add event listeners
+            checkmarkBox.addEventListener('click', (e) => handleActionClick(e, 'checked'));
+            rejectBox.addEventListener('click', (e) => handleActionClick(e, 'rejected'));
 
-            function toggleMobileNav() {
-                body.classList.toggle('mobile-nav-active');
-            }
-
-            // --- Event Listeners ---
-            [themeToggle, themeToggleMobile].forEach(btn => btn?.addEventListener('click', handleThemeToggle));
-            [langToggle, langToggleMobile].forEach(btn => btn?.addEventListener('click', handleLangToggle));
-            [printBtn, printBtnMobile].forEach(btn => btn?.addEventListener('click', handlePrint));
-            
-            mobileNavToggle?.addEventListener('click', toggleMobileNav);
-            mobileNavClose?.addEventListener('click', toggleMobileNav);
-            mobileNavOverlay?.addEventListener('click', toggleMobileNav);
-
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 300) {
-                    backToTopBtn?.classList.add('visible');
-                } else {
-                    backToTopBtn?.classList.remove('visible');
-                }
-                updateProgressBar();
-            });
-
-            document.querySelectorAll('.icon-btn, .contact-list a').forEach(button => {
-                button.addEventListener("click", createRipple);
-            });
-
-            profilePicTrigger?.addEventListener('click', openModal);
-            modalCloseBtn?.addEventListener('click', closeModal);
-            imageModal?.addEventListener('click', (event) => {
-                if (event.target === imageModal) closeModal();
-            });
-            document.addEventListener('keydown', (event) => {
-                if (event.key === "Escape" && imageModal.classList.contains('visible')) {
-                    closeModal();
+            // Accessibility: Handle keyboard events
+            checkmarkBox.addEventListener('keydown', (event) => {
+                if (event.key === ' ' || event.key === 'Enter') {
+                    event.preventDefault();
+                    handleActionClick(event, 'checked');
                 }
             });
 
-            // --- Initial Load ---
-            applySavedTheme();
-            const savedLang = localStorage.getItem('language') || 'ar';
-            setLanguage(savedLang);
+            rejectBox.addEventListener('keydown', (event) => {
+                if (event.key === ' ' || event.key === 'Enter') {
+                    event.preventDefault();
+                    handleActionClick(event, 'rejected');
+                }
+            });
         });
-    </script>
+    });
+</script>
 </body>
 </html>
